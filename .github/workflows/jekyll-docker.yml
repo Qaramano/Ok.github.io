@@ -1,6 +1,4 @@
 name: Jekyll site CI
-title: OK's homepage
-description: Bookmark this to keep an eye on my project updates!
 on:
   push:
     branches: [ "main" ]
