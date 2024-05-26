@@ -60,6 +60,12 @@ section {
   padding: 0 80px;
   margin: auto;
 }
+body {
+  opacity: 0;
+  transition: opacity 2s;
+  /* Add vendor prefixes for cross-browser compatibility */
+  -webkit-transition: opacity 2s; /* Safari */
+}
 
 .about,
 .services,
@@ -933,4 +939,9 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease; /* Optional: Add a smooth transition effect */
 }
